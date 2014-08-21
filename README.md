@@ -1,12 +1,13 @@
 Getting_Cleaning_Data_Course_Project
 ====================================
-Read data
+Set working directory
 ```r
+setwd("/Users/peggyfan/Downloads/R_data/Getting_cleaning_data")
 
 ```
 
 Step 1: Merges the training and the test sets to create one data set.
-Read and combine datasets for "test" files 
+Read data files from the working directories and combine datasets for "test" files 
 ```r
 test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 features <- read.table("./UCI HAR Dataset/features.txt")
@@ -16,13 +17,14 @@ test_subjects <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 test_data = cbind(test_subjects, test_labels, test)
 ```
 
-Read and combine datasets for "test" files 
+Read data files from the working directories and combine datasets for "training" files 
 ```r
 train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 colnames(train) <- features$V2
 train_labels <- read.table("./UCI HAR Dataset/train/y_train.txt")
 train_subjects <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 train_data = cbind(train_subjects,train_labels, train)
+
 ```
 Merging the "test" and "training" datasets:
 ```r
