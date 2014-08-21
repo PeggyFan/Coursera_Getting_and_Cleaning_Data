@@ -72,7 +72,7 @@ library(plyr)
 tidy <- ddply(data, .(Subjects, Activity), numcolwise(mean))
 ```
 
-Exporting the file to .txt file.
+Exporting the file to space-delimited text file.
 ```r
 write.table(tidy, file = "tidy_data.txt", row.names=F, quote=T, sep=" ") 
 ```
