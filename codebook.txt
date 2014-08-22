@@ -1,13 +1,13 @@
-Variable 	        Class	        Range	                         Definition	
-Subjects 	        Interger	1-30		
-Activity	        Character	1-6	                         Recoded into categorical variables: 	
-				                                         1 WALKING
-				                                         2 WALKING_UPSTAIRS
-				                                         3 WALKING_DOWNSTAIRS
-				                                         4 SITTING
-				                                         5 STANDING
-				                                         6 LAYING
-T_BodyAcc_mean_X	Number	0.22159824394-0.3014610196	        The mean of the time domain signals of the body acceleration mean in X direction	
+Variable 	        Class	   Range	                        Definition	
+Subjects 	        Interger   1-30		
+Activity	        Character  1-6	                                Recoded into categorical variables: 	
+				                                        1 WALKING
+				                                        2 WALKING_UPSTAIRS
+				                                        3 WALKING_DOWNSTAIRS
+				                                        4 SITTING
+				                                        5 STANDING
+				                                        6 LAYING
+T_BodyAcc_mean_X	Number	 0.22159824394-0.3014610196	        The mean of the time domain signals of the body acceleration mean in X direction	
 T_BodyAcc_mean_Y	Number	-0.0405139534294--0.00130828765170213	The mean of the time domain signals of the body acceleration mean in Y direction	
 T_BodyAcc_mean_Z	Number	-0.152513899520833--0.07537846886	The mean of the time domain signals of the body acceleration mean in Z direction	
 T_BodyAcc_std_X	        Number	-0.996068635384615-0.626917070512821	The mean of the time domain signals of the body acceleration standard deviation in X direction	
