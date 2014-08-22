@@ -1,0 +1,75 @@
+Variable name	Class	range	Definition	
+Subjects	Interger	1-30		
+Activity	Character	1-6	Recoded into categorical variables: 	
+				1 WALKING
+				2 WALKING_UPSTAIRS
+				3 WALKING_DOWNSTAIRS
+				4 SITTING
+				5 STANDING
+				6 LAYING
+T_BodyAcc_mean_X	Number	0.22159824394-0.3014610196	The mean of the time domain signals of the body acceleration mean in X direction	
+T_BodyAcc_mean_Y	Number	-0.0405139534294--0.00130828765170213	The mean of the time domain signals of the body acceleration mean in Y direction	
+T_BodyAcc_mean_Z	Number	-0.152513899520833--0.07537846886	The mean of the time domain signals of the body acceleration mean in Z direction	
+T_BodyAcc_std_X	Number	-0.996068635384615-0.626917070512821	The mean of the time domain signals of the body acceleration standard deviation in X direction	
+T_BodyAcc_std_Y	Number	-0.990240946666667-0.616937015333333	The mean of the time domain signals of the body acceleration standard deviation in Y direction	
+T_BodyAcc_std_Z	Number	-0.987658662307692-0.609017879074074	The mean of the time domain signals of the body acceleration standard deviation in Z direction	
+T_GravityAcc_mean_X	Number	-0.680043155060241-0.974508732	The mean of the time domain signals of the gravity acceleration mean in X direction	
+T_GravityAcc_mean_Y	Number	-0.479894842941176-0.956593814210526	The mean of the time domain signals of the gravity acceleration mean in Y direction	
+T_GravityAcc_mean_Z	Number	-0.49508872037037-0.9578730416	The mean of the time domain signals of the gravity acceleration mean in Z direction	
+T_GravityAcc_std_X	Number	-0.996764227384615--0.829554947808219	The mean of the time domain signals of the gravity acceleration standard deviation in X direction	
+T_GravityAcc_std_Y	Number	-0.99424764884058--0.643578361424658	The mean of the time domain signals of the gravity acceleration standard deviation in Y direction	
+T_GravityAcc_std_Z	Number	-0.990957249538462--0.610161166287671	The mean of the time domain signals of the gravity acceleration standard deviation in Z direction	
+T_BodyAccJerk_mean_X	Number	0.0426880986186441-0.130193043809524	The mean of the time domain signals of the body acceleration jerk signal mean in X direction	
+T_BodyAccJerk_mean_Y	Number	-0.0386872111282051-0.056818586275	The mean of the time domain signals of the body acceleration jerk signal mean in Y direction	
+T_BodyAccJerk_mean_Z	Number	-0.0674583919268293-0.0380533591627451	The mean of the time domain signals of the body acceleration jerk signal mean in Z direction	
+T_BodyAccJerk_std_X	Number	-0.994604542264151-0.544273037307692	The mean of the time domain signals of the body acceleration jerk signal standard deviation in X direction	
+T_BodyAccJerk_std_Y	Number	-0.989513565652174-0.355306716915385	The mean of the time domain signals of the body acceleration jerk signal standard deviation in Y direction	
+T_BodyAccJerk_std_Z	Number	-0.993288313333333-0.0310157077775926	The mean of the time domain signals of the body acceleration jerk signal standard deviation in Z direction	
+T_BodyGyro_mean_X	Number	-0.205775427307692-0.19270447595122	The mean of the time domain signals of the body gyro mean in X direction	
+T_BodyGyro_mean_Y	Number	-0.204205356087805-0.0274707556666667	The mean of the time domain signals of the body gyro mean in Y direction	
+T_BodyGyro_mean_Z	Number	-0.0724546025804878-0.179102058245614	The mean of the time domain signals of the body gyro mean in Z direction	
+T_BodyGyro_std_X	Number	-0.994276591304348-0.267657219333333	The mean of the time domain signals of the body gyro standard deviation in X direction	
+T_BodyGyro_std_Y	Number	-0.994210471914894-0.476518714444444	The mean of the time domain signals of the body gyro standard deviation in Y direction	
+T_BodyGyro_std_Z	Number	-0.985538363333333-0.564875818162963	The mean of the time domain signals of the body gyro standard deviation in Z direction	
+T_BodyGyroJerk_mean_X	Number	-0.157212539189362--0.0220916265065217	The mean of the time domain signals of the body gyro jerk signal mean in X direction	
+T_BodyGyroJerk_mean_Y	Number	-0.0768089915604167--0.0132022768074468	The mean of the time domain signals of the body gyro jerk signal mean in Y direction	
+T_BodyGyroJerk_mean_Z	Number	-0.0924998531372549--0.00694066389361702	The mean of the time domain signals of the body gyro jerk signal mean in Z direction	
+T_BodyGyroJerk_std_X	Number	-0.99654254057971-0.179148649684615	The mean of the time domain signals of the body gyro jerk signal standard deviation in X direction	
+T_BodyGyroJerk_std_Y	Number	-0.997081575652174-0.295945926186441	The mean of the time domain signals of the body gyro jerk signal standard deviation in Y direction	
+T_BodyGyroJerk_std_Z	Number	-0.995380794637681-0.193206498960417	The mean of the time domain signals of the body gyro jerk signal standard deviation in Z direction	
+T_BodyAccMag_mean	Number	-0.986493196666667-0.644604325128205	The mean of the time domain signals of the body acceleration magnitude mean 	
+T_BodyAccMag_std	Number	-0.986464542615385-0.428405922622222	The mean of the time domain signals of the body acceleration magnitude standard deviation 	
+T_GravityAccMag_mean	Number	-0.986493196666667-0.644604325128205	The mean of the time domain signals of the gravity acceleration magnitude mean 	
+T_GravityAccMag_std	Number	-0.986464542615385-0.428405922622222	The mean of the time domain signals of the gravity acceleration magnitude standard deviation 	
+T_BodyAccJerkMag_mean	Number	-0.99281471515625-0.434490400974359	The mean of the time domain signals of the body acceleration jerk magnitude mean 	
+T_BodyAccJerkMag_std	Number	-0.994646916811594-0.450612065720513	The mean of the time domain signals of the body acceleration jerk magnitude standard deviation 	
+T_BodyGyroMag_mean	Number	-0.980740846769231-0.418004608615385	The mean of the time domain signals of the body gyro magnitude mean 	
+T_BodyGyroMag_std	Number	-0.981372675614035-0.299975979851852	The mean of the time domain signals of the body gyro magnitude standard deviation 	
+T_BodyGyroJerkMag_mean	Number	-0.997322526811594-0.0875816618205128	The mean of the time domain signals of the body gyro jerk magnitudemean 	
+T_BodyGyroJerkMag_std	Number	-0.997666071594203-0.250173204117966	The mean of the time domain signals of the body gyro jerk magnitudestandard deviation 	
+F_BodyAcc_mean_X	Number	-0.995249932641509-0.537012022051282	The mean of the frequency domain signals of the body acceleration mean in X direction	
+F_BodyAcc_mean_Y	Number	-0.989034304057971-0.524187686888889	The mean of the frequency domain signals of the body acceleration mean in Y direction	
+F_BodyAcc_mean_Z	Number	-0.989473926666667-0.280735952206667	The mean of the frequency domain signals of the body acceleration mean in Z direction	
+F_BodyAcc_std_X	Number	-0.996604570307692-0.658506543333333	The mean of the frequency domain signals of the body acceleration standard deviation in X direction	
+F_BodyAcc_std_Y	Number	-0.990680395362319-0.560191344	The mean of the frequency domain signals of the body acceleration standard deviation in Y direction	
+F_BodyAcc_std_Z	Number	-0.987224804307692-0.687124163703704	The mean of the frequency domain signals of the body acceleration standard deviation in Z direction	
+F_BodyAccJerk_mean_X	Number	-0.994630797358491-0.474317256051282	The mean of the frequency domain signals of the body acceleration jerk signal mean in X direction	
+F_BodyAccJerk_mean_Y	Number	-0.989398823913043-0.276716853307692	The mean of the frequency domain signals of the body acceleration jerk signal mean in Y direction	
+F_BodyAccJerk_mean_Z	Number	-0.992018447826087-0.157775692377778	The mean of the frequency domain signals of the body acceleration jerk signal mean in Z direction	
+F_BodyAccJerk_std_X	Number	-0.995073759245283-0.476803887476923	The mean of the frequency domain signals of the body acceleration jerk signal standard deviation in X direction	
+F_BodyAccJerk_std_Y	Number	-0.990468082753623-0.349771285415897	The mean of the frequency domain signals of the body acceleration jerk signal standard deviation in Y direction	
+F_BodyAccJerk_std_Z	Number	-0.993107759855072--0.00623647528983051	The mean of the frequency domain signals of the body acceleration jerk signal standard deviation in Z direction	
+F_BodyGyro_mean_X	Number	-0.99312260884058-0.474962448333333	The mean of the frequency domain signals of the body gyro mean in X direction	
+F_BodyGyro_mean_Y	Number	-0.994025488297872-0.328817010088889	The mean of the frequency domain signals of the body gyro mean in Y direction	
+F_BodyGyro_mean_Z	Number	-0.985957788-0.492414379822222	The mean of the frequency domain signals of the body gyro mean in Z direction	
+F_BodyGyro_std_X	Number	-0.994652185217391-0.196613286661538	The mean of the frequency domain signals of the body gyro standard deviation in X direction	
+F_BodyGyro_std_Y	Number	-0.994353086595745-0.646233637037037	The mean of the frequency domain signals of the body gyro standard deviation in Y direction	
+F_BodyGyro_std_Z	Number	-0.986725274871795-0.522454216314815	The mean of the frequency domain signals of the body gyro standard deviation in Z direction	
+F_BodyAccMag_mean	Number	-0.986800645362319-0.586637550769231	The mean of the frequency domain signals of the body acceleration magnitude mean 	
+F_BodyAccMag_std	Number	-0.987648484461539-0.178684580868889	The mean of the frequency domain signals of the body acceleration magnitude standard deviation 	
+F_BodyBodyAccJerkMag_mean	Number	-0.993998275797101-0.538404846128205	The mean of the frequency domain signals of the body acceleration jerk magnitude mean 	
+F_BodyBodyAccJerkMag_std	Number	-0.994366667681159-0.316346415348718	The mean of the frequency domain signals of the body acceleration jerk magnitude standard deviation 	
+F_BodyBodyGyroMag_mean	Number	-0.986535242105263-0.203979764835897	The mean of the frequency domain signals of the body acceleration gyro magnitude mean 	
+F_BodyBodyGyroMag_std	Number	-0.981468841692308-0.236659662496296	The mean of the frequency domain signals of the body acceleration gyro magnitude standard deviation 	
+F_BodyBodyGyroJerkMag_mean	Number	-0.997617389275362-0.146618569064407	The mean of the frequency domain signals of the body acceleration gyro jerk magnitude mean 	
+F_BodyBodyGyroJerkMag_std	Number	-0.99758523057971-0.287834616098305	The mean of the frequency domain signals of the body acceleration gyro jerk magnitude standard deviation 	
