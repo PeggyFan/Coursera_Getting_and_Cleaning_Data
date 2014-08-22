@@ -36,6 +36,7 @@ data$Labels[data$Label == 6] <- "LAYING"
 vars <- names(data)
 vars <- gsub("t", "T_", vars)
 vars <- gsub("f", "F_", vars)
+vars <- gsub("GraviT_y", "Gravity", vars)
 vars <- gsub("-", "_", vars)
 vars <- gsub("-|\\()", "", vars)
 vars <- gsub("sT_d", "std", vars)
